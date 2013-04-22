@@ -1,0 +1,45 @@
+.navbar.navbar-fixed-top
+  .navbar-inner
+    .container
+      a.brand(href='#') MyArduino WebSocket
+      .nav-collapse
+        ul.nav
+          // li
+            a(href='/browserquest/client/') BrowserQuest Controller
+          li
+            a(href='https://github.com/semu/node-arduino-socket') View on GitHub &raquo;  
+br
+br
+br
+br
+.container
+  .row-fluid
+    .span2
+      .navbar-inner
+        a testtestest
+
+
+button#button(type='button') Send Message
+br
+.container
+  .row-fluid
+    .span3
+        .navbar-inner
+          .slider(style='width: 140px;')
+
+    .span4.offset1  niveau 2
+      pre
+        ul#socket
+    // .container
+      h2 BrowserQuest Controller
+      //-::::::::::::::::::::::::::::
+
+      p If you are running your own 
+        a(href="http://browserquest.mozilla.org/") BrowserQuest
+        |  server on default port 8000, you can use the 
+        a(href="http://www.sparkfun.com/products/9760") SparkFun Joystick Shield Kit
+        |  with the 
+        a(href="/browserquest/client/") customized BrowserQuest client
+        |  to control your character. Please upload the provided <code>CallbackExample.pde</code> file from 
+        a(href="https://github.com/sudar/JoystickShield") Sudur Muthu
+        |  to your Arduino for sending commands from the joystick to the serial port watcher…

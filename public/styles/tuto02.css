@@ -1,0 +1,20 @@
+[class*="span"] {
+background-color: lightgreen;
+margin-bottom: 10px;
+border-radius: 5px 5px 5px 5px;
+line-height: 80px;
+text-align: center;
+}
+[class="span10"] {
+background-color: green;
+}
+
+.row-fluid {
+width: 100%;
+}
+
+.container-fluid {
+padding-right: 20px;
+padding-left: 20px;
+}
+
